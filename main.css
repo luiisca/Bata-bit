@@ -278,15 +278,19 @@ main {
 }
 
 .main-product-detail {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: var(--warm-black);
-    height: 893px;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 64px 16px;
     color: var(--just-white);
 }
 .main-product-detail__patata-logo {
     position: absolute;
-    top: 1111px;
+    top: -10px;
     left: calc(50% - 20.5px);
     width: 41px;
     height: 24px;
@@ -299,32 +303,38 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 288px;
-    height: 94px;
-    margin: 64px auto 16px auto;
+    width: 90%;
+    min-width: 288px;
+    margin: 0 auto;
+    height: auto;
+    /* margin: 64px auto 16px auto; */
     text-align: center;
 }
 .main-product-detail_title h2 {
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 2.6rem;
+    margin-bottom: 24px;
 }
 .main-product-detail_title p {
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
+    margin-bottom: 16px;
     color: #808080;
 }
 .product-cards {
     display: flex;
     flex-direction: column;
-    width: 288px;
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
     margin: 0 auto;
 }
 .product-cards article {
     display: flex;
     flex-direction: column;
-    height: 152px;
+    min-height: 52px;
     background-color: var(--warm-black-1);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
     border-radius: 4px;
@@ -372,4 +382,153 @@ main {
     font-size: 14px;
     line-height: 18px;
     color: #808080;
+}
+
+.bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 65vh;
+    background-image: url('https://res.cloudinary.com/dnkddxigy/image/upload/v1609018081/bitcoin-img2x.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bitcoin-img-container h2 {
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--just-white);
+}
+
+.main-plans {
+    background-color: var(--off-white);
+}
+.main-plans__title {
+    margin: 64px auto 50px auto;
+    margin-top: 64px;
+    width: 90%;
+    min-width: 288px;
+    text-align: center;
+}
+.main-plans__title h2{
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.main-plans__title p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.main-plans__slider {
+    width: 190px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: var(--just-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+    text-align: center;
+}
+.main-plans__slider-arrows-container {
+    position: relative;
+    height: 247px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 31px;
+    margin-bottom: 64px;
+}
+.main-plans__left-arrow {
+    width: 7.41px;
+    height: 12px;
+    background-image: url('https://res.cloudinary.com/dnkddxigy/image/upload/v1609021840/left-arrow_kie0hw.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-plans__right-arrow {
+    width: 7.41px;
+    height: 12px;
+    background-image: url('https://res.cloudinary.com/dnkddxigy/image/upload/v1609022218/right-arrow_j36bme.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-plans__slider .slider__floating-box{
+    position: absolute;
+    left: calc(50% - 50.5px);
+    top: -15.5px;
+    width: 101px;
+    height: 31px;
+    padding: 8px;
+    background: var(--bitcoin-orange);
+    border-radius: 8px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: var(--just-white);
+}
+.slider__card h3 {
+    margin: 31px 58px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.slider__price {
+    display: flex;
+    justify-content: center;
+    padding-right: 14px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    letter-spacing: -0.08em;
+    color: #000000;
+}
+.slider__price span {
+    align-self: flex-start;
+    padding-top: 7px;
+    padding-right: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #363636;
+}
+.slider__price-details {
+    margin: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #757575;
+}
+.slider__card button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px 24px 20px;
+    padding: 16px;
+    width: 151px;
+    height: 48px;
+    background: var(--off-white);
+    border: 2px solid var(--bitcoin-orange);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.slider__card button span {
+    width: 24px;
+    height: 24px;
+    background-image: url('https://res.cloudinary.com/dnkddxigy/image/upload/v1608658823/arrow-right_1_h0h2tu.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
