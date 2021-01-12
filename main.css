@@ -432,7 +432,6 @@ main {
     gap: 5px;
     height: 316px;
     overflow-x: auto;
-    overscroll-behavior: contain;
     scroll-snap-type: x mandatory;
 }
 .main-plans__card {
