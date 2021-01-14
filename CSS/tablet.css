@@ -1,0 +1,58 @@
+header {
+    height: 380px;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 2.8rem;
+}
+.header__title-container h1 {
+    font-size: 3.6rem;
+    line-height: 3.5rem;
+}
+.header__title-container p {
+    width: 362px;
+}
+.header__title-container .header__button {
+    top: 356px;
+}
+.main-tables {
+    width: 466px;
+    margin-left: calc(50% - 233px);
+}
+
+.product-cards {
+    min-width: 706px;
+    grid-gap: 16px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;;
+}
+.product-cards article {
+    margin: 0;
+}
+
+.bitcoin-img-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/dnkddxigy/image/upload/v1610557879/bitcoinbaby_2_vyfvpk.png');
+}
+.bitcoin-img-container h2 {
+    align-self: center;
+    padding: 0;
+}
+footer {
+    gap: 180px;
+}
+.footer__links ul {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.footer__logo {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.footer__logo img {
+    margin-bottom: 7px;
+    width: 70px;
+    height: 40px;
+}
