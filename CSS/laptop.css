@@ -2,7 +2,9 @@ h2 {
     font-size: 4rem;
     line-height: 4.2rem;
 }
-.main-plans__slider {
-    gap: 18px;
-    justify-content: center;
+.bitcoin-img-container {
+    height: 100vh;
+}
+.main-plans {
+    height: 86vh;
 }

@@ -1,18 +1,18 @@
 header {
     height: 380px;
 }
-h2 {
-    font-size: 3rem;
-    line-height: 2.8rem;
-}
 .header__title-container h1 {
     font-size: 3.6rem;
     line-height: 3.5rem;
 }
+h2 {
+    font-size: 3rem;
+    line-height: 2.8rem;
+}
 .header__title-container p {
     width: 362px;
 }
-.header__title-container .header__button {
+.header__button {
     top: 356px;
 }
 .main-tables {
@@ -20,14 +20,19 @@ h2 {
     margin-left: calc(50% - 233px);
 }
 
-.product-cards {
-    min-width: 706px;
+.product-cards {   
+    min-width: 668px;
+    max-width: 900px;
     grid-gap: 16px;
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;;
 }
 .product-cards article {
     margin: 0;
+}
+
+.main-plans__slider {
+    gap: 18px;
 }
 
 .bitcoin-img-container {
