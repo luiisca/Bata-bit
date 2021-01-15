@@ -33,6 +33,7 @@ h2 {
 
 .main-plans__slider {
     gap: 18px;
+    justify-content: center;
 }
 
 .bitcoin-img-container {

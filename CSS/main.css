@@ -430,7 +430,6 @@ main {
 }
 .main-plans__slider {
     display: flex;
-    justify-content: center;
     gap: 5px;
     height: 316px;
     overflow-x: auto;
