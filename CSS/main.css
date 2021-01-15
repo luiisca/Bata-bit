@@ -23,7 +23,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #f7f7f7;
 }
 h2 {
     font-size: 2.4rem;
@@ -134,7 +134,7 @@ main {
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 1.8rem;
-    color: #757575;
+    color: #444343;
 }
 .main-tables {
     display: flex;
@@ -159,7 +159,7 @@ main {
     font-weight: bold;
     font-size: 18px;
     line-height: 23px;
-    color: #FF9536;
+    color: #f58a0a;
 }
 .main-tables__coins-prices-arrow-container .main-tables__coins-prices {
     width: 197px;
@@ -229,7 +229,7 @@ main {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: -0.02em;
-    color: #B5B0AC;
+    color: #737271;
 }
 .main-tables__price--right-table {
     display: flex;
@@ -295,7 +295,7 @@ main {
     left: calc(50% - 20.5px);
     width: 41px;
     height: 24px;
-    background-image: url('https://res.cloudinary.com/dnkddxigy/image/upload/v1609003573/patata-icon.svg');
+    background-image: url('https://res.cloudinary.com/dnkddxigy/image/upload/v1610475160/patata-icon_igmbdy_z6afby.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -323,7 +323,7 @@ main {
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 16px;
-    color: #808080;
+    color: #b7b4b4;
 }
 .product-cards {
     display: flex;
@@ -383,7 +383,7 @@ main {
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    color: #808080;
+    color: #a9a0a0;
 }
 
 .bitcoin-img-container {
@@ -551,7 +551,7 @@ footer {
     flex-direction: column;
     align-items: center;
     font-size: .8rem;
-    color: #FFE9D5;
+    color: #ffffff;
 }
 .footer__logo img {
     width: 40.57px;
