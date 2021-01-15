@@ -1,4 +1,4 @@
-# 📃Bata-bit ![Status badge](https://img.shields.io/badge/status-completed-green)
+# 🤑Bata-bit ![Status badge](https://img.shields.io/badge/status-completed-green)
 
 In this project we will build a website with which to operate cryptocurrencies. I hope you enjoy it almost as much as I enjoyed building it.
 ## 🚀DEMO
